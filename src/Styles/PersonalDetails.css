@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.personal-details-form {
+  background-color: rgb(60, 125, 223);
+  padding: 10px 20px;
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+.heading {
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+}

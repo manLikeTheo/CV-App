@@ -1,0 +1,15 @@
+.personal-details-view {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 500px;
+}
+
+.contact-details {
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
