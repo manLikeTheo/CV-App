@@ -16,3 +16,33 @@
   font-weight: 600;
   font-size: 32px;
 }
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn {
+  /* color: rgb(41, 97, 180); */
+  color: rgb(42, 93, 168);
+  background-color: rgb(244, 245, 247);
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.reset-btn {
+  color: white;
+  background-color: rgb(114, 112, 112);
+  font-weight: 900;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}

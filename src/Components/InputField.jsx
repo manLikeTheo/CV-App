@@ -1,5 +1,5 @@
 import "../Styles/InputField.css";
-function InputField({ id, type, value, placeholder, title, onChange }) {
+function InputField({ name, id, type, value, placeholder, title, onChange }) {
   return (
     <div className="input-field">
       <label className="label" htmlFor={id}>
@@ -8,6 +8,7 @@ function InputField({ id, type, value, placeholder, title, onChange }) {
 
       {type === "textarea" ? (
         <textarea
+          name={name}
           id={id}
           placeholder={placeholder}
           value={value}
@@ -16,6 +17,7 @@ function InputField({ id, type, value, placeholder, title, onChange }) {
         ></textarea>
       ) : (
         <input
+          name={name}
           key={id}
           id={id}
           type={type}

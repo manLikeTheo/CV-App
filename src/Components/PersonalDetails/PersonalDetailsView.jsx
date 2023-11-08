@@ -1,24 +1,35 @@
 import "../../Styles/PersonalDetailsView.css";
 
-const PersonalDetailsView = ({ fullName, email, telephone, address }) => {
+function PersonalDetailsView({
+  fullName,
+  email,
+  telephone,
+  address,
+  description,
+}) {
   return (
     <div className="personal-details-view">
       <h1 className="full-name">FullName: {fullName}</h1>
       <div className="contact-details">
         <div className="email">
-          <i>Mail:</i>
-          <span className="email-address">{email}</span>
+          <i>Mail: </i>
+          <span className="email-text">{email}</span>
         </div>
         <div className="telephone">
-          <i>Tel:</i>
-          <span className="telephone">{telephone}</span>
+          <i>Tel: </i>
+          <span className="telephone-text">{telephone}</span>
         </div>
         <div className="address">
-          <i>Address</i>
-          <span className="Address">{address}</span>
+          <i>Address: </i>
+          <span className="address-text">{address}</span>
         </div>
+      </div>
+      <div className="description">
+        <i>About Me: </i>
+        <br />
+        <span className="description-text">{description}</span>
       </div>
     </div>
   );
-};
+}
 export default PersonalDetailsView;

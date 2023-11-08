@@ -13,8 +13,9 @@ function PersonalDetails({
     <form action="" className="personal-details-form">
       <h2 className="heading">Personal Details</h2>
       <InputField
+        name="fullName"
         type="text"
-        id="Full name"
+        id="fullName"
         key="fullName"
         title="Full Name"
         placeholder="Enter First and Last Name"
@@ -22,6 +23,7 @@ function PersonalDetails({
         onChange={onChange}
       />
       <InputField
+        name="email"
         type="email"
         id="email"
         key="email"
@@ -31,6 +33,7 @@ function PersonalDetails({
         onChange={onChange}
       />
       <InputField
+        name="telephone"
         type="tel"
         id="telephone"
         key="telephone"
@@ -40,9 +43,10 @@ function PersonalDetails({
         onChange={onChange}
       />
       <InputField
+        name="address"
         type="text"
         id="address"
-        key="addres"
+        key="address"
         title="Address"
         placeholder="Enter Address"
         value={address}
@@ -50,6 +54,7 @@ function PersonalDetails({
       />
 
       <InputField
+        name="description"
         type="textarea"
         id="description"
         title="Description"
@@ -57,6 +62,14 @@ function PersonalDetails({
         value={description}
         onChange={onChange}
       />
+      <div className="buttons">
+        <button className="add-btn" type="submit">
+          Add
+        </button>
+        <button className="reset-btn" type="submit">
+          Reset
+        </button>
+      </div>
     </form>
   );
 }

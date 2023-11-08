@@ -16,6 +16,7 @@ textarea {
   margin: 5px 0;
   font-size: 15px;
   font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
 input:focus,

@@ -1,6 +1,6 @@
 import PersonalDetailsView from "./Components/PersonalDetails/PersonalDetailsView";
 
-export default function CVPreview({ personalDetails }) {
+function CVPreview({ personalDetails }) {
   return (
     <div className="cv-preview">
       <section>
@@ -9,8 +9,10 @@ export default function CVPreview({ personalDetails }) {
           email={personalDetails.email}
           telephone={personalDetails.telephone}
           address={personalDetails.address}
+          description={personalDetails.description}
         />
       </section>
     </div>
   );
 }
+export default CVPreview;
