@@ -1,25 +1,36 @@
+import "../../Styles/education-input-form.css";
 import InputField from "../InputField";
 
-function EducationInputForm(props) {
-  const { degree, institution, location, start, end, id } = props.form;
-  const { onChange } = props;
+function EducationInputForm({
+  degree,
+  institution,
+  location,
+  start,
+  end,
+  id,
+  onChange,
+}) {
+  // const { degree, institution, location, start, end, id } = props.form;
+  // const { onChange } = props;
 
   return (
     <form
       className="education-input-form subsection-form"
       id={id}
-      data-array-name="educations"
+      data-sub-section-array-name="educationArray"
       onSubmit={(e) => e.preventDefault()}
     >
       <InputField
+        name="institution"
         type="text"
         id="institution"
         title="Institution"
-        placeholder="Enter name of institution"
+        placeholder="Enter Name Of Institution"
         value={institution}
         onChange={onChange}
       />
       <InputField
+        name="degree"
         type="text"
         id="degree"
         title="Degree"
@@ -29,6 +40,7 @@ function EducationInputForm(props) {
       />
       <fieldset className="dates">
         <InputField
+          name="start"
           type="text"
           id="date"
           title="Started"
@@ -37,6 +49,7 @@ function EducationInputForm(props) {
           onChange={onChange}
         />
         <InputField
+          name="end"
           type="text"
           id="date"
           title="Ended"
@@ -46,10 +59,11 @@ function EducationInputForm(props) {
         />
       </fieldset>
       <InputField
+        name="location"
         type="text"
         id="location"
         title="Location"
-        placeholder="Enter City/Country of Institution"
+        placeholder="City / Country of Institution"
         value={location}
         onChange={onChange}
       />

@@ -44,8 +44,9 @@
 .cv-container {
   display: flex;
   gap: 20px;
-  padding: 20px;
-  border: 2px solid green;
+  /* padding: 20px; */
+  /* border: 2px solid green; */
   width: 100%;
   min-height: 100vh;
+  background-color: rgb(111, 115, 117);
 }

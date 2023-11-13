@@ -9,7 +9,7 @@ function PersonalDetailsView({
 }) {
   return (
     <div className="personal-details-view">
-      <h1 className="full-name">FullName: {fullName}</h1>
+      <h1 className="full-name">{fullName}</h1>
       <div className="contact-details">
         <div className="email">
           <i>Mail: </i>
