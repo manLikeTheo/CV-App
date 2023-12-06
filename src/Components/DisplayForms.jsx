@@ -1,5 +1,5 @@
-import FormCollapse from "./FormCollapse";
-
+import CollapsedMode from "./CollapsedMode";
+import "../Styles/Display-forms.css";
 function DisplayForms({
   forms,
   onChange,
@@ -8,19 +8,19 @@ function DisplayForms({
   onHide,
   onRemove,
   FormComponent,
-  titleKey,
-  subSectionName,
+  title,
+  arrayName,
 }) {
   return (
     <div className="forms-container">
       {forms.map((form) =>
         form.isCollapsed ? (
-          <FormCollapse
+          <CollapsedMode
             onClick={toggleCollapse}
             key={form.id}
             form={form}
-            title={form[titleKey]}
-            subSectionName={subSectionName}
+            title={form[title]}
+            arrayName={arrayName}
             hideForm={onHide}
           />
         ) : (
@@ -29,8 +29,8 @@ function DisplayForms({
             form={form}
             key={form.id}
             cancel={onCancel}
+            add={toggleCollapse}
             remove={onRemove}
-            save={toggleCollapse}
           />
         )
       )}

@@ -1,0 +1,9 @@
+.education-heading {
+  color: white;
+}
+
+section.cv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

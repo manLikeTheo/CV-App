@@ -1,0 +1,16 @@
+.collapsed-form-mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* border: 2px solid blue; */
+  font-size: 18px;
+}
+
+.collapsed-form-mode:hover {
+  transform: scale(0.99);
+}
+
+.collapsed-form-mode > i {
+  font-size: 25px;
+}

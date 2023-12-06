@@ -2,15 +2,24 @@ import "../../Styles/PersonalDetails.css";
 import InputField from "../InputField";
 
 function PersonalDetails({
+  id,
   fullName,
   email,
   telephone,
   address,
   description,
   onChange,
+  onAdd,
+  onReset,
 }) {
   return (
-    <form action="" className="personal-details-form">
+    <form
+      onSubmit={(e) => {
+        e.preventDefault;
+      }}
+      id={id}
+      className="personal-details-form"
+    >
       <h2 className="heading">Personal Details</h2>
       <InputField
         name="fullName"
@@ -63,11 +72,11 @@ function PersonalDetails({
         onChange={onChange}
       />
       <div className="buttons">
-        <button className="add-btn" type="submit">
-          Add
+        <button className="add-btn" type="submit" onClick={onAdd}>
+          Submit
         </button>
-        <button className="reset-btn" type="submit">
-          Reset
+        <button className="reset-btn" type="button" onClick={onReset}>
+          Edit
         </button>
       </div>
     </form>

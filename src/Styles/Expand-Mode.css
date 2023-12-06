@@ -1,0 +1,15 @@
+.expand-mode-btn {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+}
+
+.expand-mode-btn > * {
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+}
+
+.expand-mode-btn:hover {
+  transform: scale(1);
+}
