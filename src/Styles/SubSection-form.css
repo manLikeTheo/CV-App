@@ -1,8 +1,9 @@
-.education-form {
+.education-form,
+.work-experience-form {
   /* border: 2px solid red; */
   border-radius: 10px;
   padding: 20px;
-  background-color: rgb(134, 13, 128);
+  background-color: rgb(138, 9, 95);
   margin-top: 5px;
   min-width: 300px;
 }

@@ -1,9 +1,8 @@
-import "../../Styles/education-form.css/";
+import "../../Styles/SubSection-form.css/";
 import InputField from "../InputField";
 // import uniqid from "uniqid";
 
 function EducationForm(props) {
-  // const { institution, degree, start, end, cancel } = educationInfo;
   const { institution, degree, start, end, location, id } = props.form;
   const { onChange, add, cancel, remove } = props;
 
@@ -12,7 +11,10 @@ function EducationForm(props) {
       className="education-form subsection-form"
       id={id}
       data-array-name="educationArray"
-      onSubmit={(e) => e.preventDefault()}
+      onSubmit={(e) => {
+        e.stopPropagation();
+        e.preventDefault();
+      }}
     >
       <InputField
         type="text"

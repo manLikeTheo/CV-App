@@ -1,12 +1,15 @@
 .expand-mode-btn {
+  /* border: 3px solid red; */
   display: flex;
   justify-content: space-around;
-  background-color: gray;
+  background-color: rgb(138, 9, 95);
+  margin-top: 20px;
+  min-width: 100%;
 }
 
 .expand-mode-btn > * {
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 600;
   color: white;
 }
 

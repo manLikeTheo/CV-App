@@ -1,7 +1,7 @@
 import EducationForm from "./EducationForm";
 import DisplayForms from "../DisplayForms";
 import ExpandMode from "../ExpandMode";
-import "../../Styles/Education-section-add.css";
+import "../../Styles/subSection-add-forms.css";
 
 function EducationSectionAdd({
   educationArray,
@@ -15,7 +15,7 @@ function EducationSectionAdd({
   onRemove,
 }) {
   return (
-    <div className="education-section-add">
+    <div className="subSection-add-forms">
       <ExpandMode
         isOpen={isOpen}
         setOpen={setOpen}

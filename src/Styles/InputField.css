@@ -1,6 +1,4 @@
 .input-field {
-  /* border: 2px solid red; */
-  /* padding: 5px; */
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -8,7 +6,6 @@
 
 input,
 textarea {
-  /* border: 2px solid blue; */
   border: none;
   padding: 7.5px;
   outline: none;
@@ -21,7 +18,6 @@ textarea {
 
 input:focus,
 textarea:focus {
-  /* background-color: rgb(230, 226, 226); */
   color: black;
   border: none;
 }

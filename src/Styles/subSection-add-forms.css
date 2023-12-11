@@ -1,0 +1,25 @@
+.subSection-add-forms {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.add-education-btn,
+.work-experience-add {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.displayForm-subsection-open > * {
+  margin-top: 5px;
+}
+
+.add-education-btn,
+.work-experience-add {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 20px;
+  background-color: rgb(138, 9, 95);
+  color: white;
+}

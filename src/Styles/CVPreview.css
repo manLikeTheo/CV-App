@@ -4,6 +4,8 @@
 
 section.cv {
   display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }

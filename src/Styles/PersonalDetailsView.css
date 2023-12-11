@@ -1,20 +1,14 @@
 .personal-details-view {
-  /* border: 2px solid red; */
-  border-radius: 5px 40px;
+  /* border-radius: 5px 40px; */
   display: flex;
   flex-direction: column;
   gap: 5px;
   min-width: 500px;
   padding: 10px;
-  background-color: rgb(63, 120, 224);
+  background-color: rgb(138, 9, 95);
 }
 
-/* .personal-details-view > * {
-  box-shadow: rgba(red, green, blue, alpha);
-} */
-
 .full-name {
-  /* border: 2px solid red; */
   font-size: 45px;
   color: white;
 }
@@ -29,7 +23,6 @@
 }
 
 .contact-details > * {
-  /* border: 2px solid red; */
   text-align: center;
   color: white;
 }
@@ -51,7 +44,6 @@
   border-radius: 10px;
   padding: 5px;
   font-size: 16px;
-  /* letter-spacing: 1.5px; */
   max-width: 75%;
   margin: 0 auto;
   text-align: justify;

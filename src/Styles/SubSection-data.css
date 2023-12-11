@@ -1,0 +1,43 @@
+.subsection-data {
+  max-width: 700px;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 20px;
+  background-color: rgb(138, 9, 95);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.date-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dash {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.dates-location {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.institution,
+.employer {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 1px;
+}

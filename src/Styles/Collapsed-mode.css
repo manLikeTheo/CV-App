@@ -3,8 +3,9 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  /* border: 2px solid blue; */
+  background-color: rgb(138, 9, 95);
   font-size: 18px;
+  color: white;
 }
 
 .collapsed-form-mode:hover {

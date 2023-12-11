@@ -18,7 +18,7 @@ const DATA = {
         location: "Kharkiv, Ukraine",
         start: "09/2013",
         end: "07/2017",
-        isCollapsed: false,
+        isCollapsed: true,
         isNotVisible: false,
         id: uniqid(),
       },
@@ -39,7 +39,8 @@ const DATA = {
         employer: "Q-Net International",
         position: "Network Marketer",
         location: "Kharkiv, Ukraine",
-        job_description: "",
+        job_description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis eius",
         start: "04/2017",
         end: "01/2019",
         isCollapsed: true,
@@ -49,8 +50,9 @@ const DATA = {
       {
         employer: "DSi - Hub",
         position: "Resource Personnel",
-        location: "Delta, Nigeria",
-        job_description: "",
+        location: "Delta State, Nigeria",
+        job_description:
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam ex cum autem",
         start: "11/2017",
         end: "06/2018",
         isCollapsed: true,

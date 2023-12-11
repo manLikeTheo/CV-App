@@ -1,13 +1,15 @@
-import "../../Styles/education-data.css";
-function EducationDataView({ institution, degree, location, start, end }) {
+import "../../Styles/SubSection-data.css";
+function EducationDataView(obj) {
+  const { institution, degree, location, start, end } = obj;
   return (
-    <div className="education-data">
-      <p className="date-info">
-        {start} <span className="dash"> - </span> {end}
-      </p>
-      <p className="location">{location}</p>
-
-      <div className="institution-degree">
+    <div className="subsection-data">
+      <div className="dates-location">
+        <p className="date-info">
+          {start} <span className="dash"> - </span> {end}
+        </p>
+        <p className="location">{location}</p>
+      </div>
+      <div className="info">
         {/* <p>
           <strong className="institution">{institution}</strong>
         </p> */}

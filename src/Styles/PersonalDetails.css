@@ -5,14 +5,14 @@
 }
 
 .personal-details-form {
-  background-color: rgb(60, 125, 223);
+  background-color: rgb(138, 9, 95);
   padding: 10px 20px;
   border-radius: 10px;
   min-width: 300px;
 }
 
 .heading {
-  color: black;
+  color: white;
   font-weight: 600;
   font-size: 32px;
 }
@@ -26,7 +26,7 @@
 
 .add-btn {
   /* color: rgb(41, 97, 180); */
-  color: rgb(42, 93, 168);
+  color: rgba(138, 9, 95, 0.904);
   background-color: rgb(244, 245, 247);
   font-weight: 900;
   font-size: 18px;
@@ -38,7 +38,7 @@
   color: white;
   background-color: rgb(114, 112, 112);
   font-weight: 900;
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 20px;
   padding: 10px 20px;
 }
