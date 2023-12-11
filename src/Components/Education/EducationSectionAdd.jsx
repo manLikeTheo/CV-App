@@ -36,7 +36,7 @@ function EducationSectionAdd({
           arrayName="educationArray"
         />
         <button className="add-education-btn" onClick={createForm}>
-          Add Education +
+          + Education
         </button>
       </div>
     </div>

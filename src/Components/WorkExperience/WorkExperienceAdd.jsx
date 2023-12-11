@@ -37,7 +37,7 @@ function WorkExperienceAdd({
         />
       </div>
       <button className="work-experience-add" onClick={createForm}>
-        Add Experience +
+        + Experience
       </button>
     </div>
   );
