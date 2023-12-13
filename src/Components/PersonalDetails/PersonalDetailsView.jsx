@@ -12,15 +12,15 @@ function PersonalDetailsView({
       <h1 className="full-name">{fullName}</h1>
       <div className="contact-details">
         <div className="email">
-          <i>Mail: </i>
+          <i className="fa fa-envelope"></i>
           <span className="email-text">{email}</span>
         </div>
         <div className="telephone">
-          <i>Tel: </i>
+          <i className="fa fa-phone"></i>
           <span className="telephone-text">{telephone}</span>
         </div>
         <div className="address">
-          <i>Address: </i>
+          <i className="fa fa-home"></i>
           <span className="address-text">{address}</span>
         </div>
       </div>

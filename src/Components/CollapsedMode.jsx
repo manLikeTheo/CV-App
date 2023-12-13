@@ -18,9 +18,7 @@ function CollapsedMode(props) {
           e.stopPropagation();
           hideForm(e);
         }}
-      >
-        &copy;
-      </i>
+      ></i>
     </button>
   );
 }

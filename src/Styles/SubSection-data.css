@@ -1,5 +1,5 @@
 .subsection-data {
-  max-width: 700px;
+  min-width: 500px;
   border-radius: 10px;
   color: white;
   padding: 20px 20px;
