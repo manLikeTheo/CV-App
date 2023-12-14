@@ -1,8 +1,7 @@
 .subSection-add-forms {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 10px;
+  gap: 25px;
 }
 
 .add-education-btn,

@@ -4,7 +4,7 @@ function ExpandMode({ isOpen, setOpen, subSectionName, icon }) {
     <button className="expand-mode-btn" onClick={setOpen}>
       <i className={icon}></i>
       <p className="subSection-name">{subSectionName}</p>
-      <i className={`fa-chevron ${isOpen ? "-up" : ""}`}>^</i>
+      <i className={`fa fa-chevron ${isOpen ? "-up" : ""}`}>^</i>
     </button>
   );
 }

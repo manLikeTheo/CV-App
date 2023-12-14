@@ -20,7 +20,7 @@ function WorkExperienceAdd({
         isOpen={isOpen}
         setOpen={setOpen}
         subSectionName="Work Experience"
-        icon="fa-solid fa-work"
+        icon="fa-solid fa-briefcase"
       />
 
       <div className={`displayForm-subsection-open ${isOpen ? "open" : ""}`}>
