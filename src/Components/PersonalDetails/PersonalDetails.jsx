@@ -9,8 +9,6 @@ function PersonalDetails({
   address,
   description,
   onChange,
-  onAdd,
-  onReset,
 }) {
   return (
     <form
@@ -71,14 +69,14 @@ function PersonalDetails({
         value={description}
         onChange={onChange}
       />
-      <div className="buttons">
+      {/* <div className="buttons">
         <button className="add-btn" type="submit" onClick={onAdd}>
           Submit
         </button>
         <button className="reset-btn" type="button" onClick={onReset}>
           Edit
         </button>
-      </div>
+      </div> */}
     </form>
   );
 }
