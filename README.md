@@ -4,7 +4,9 @@
 
 This CV-App is done as a solution to an assignment in "The Odin Project" ReactJS curricullum (which is quite challenging by the way)
 
-(![CV-App Thumbnail](<src/assets/CV-App Snip.png>))
+![CV-App Thumbnail](<src/assets/CV-App Snip.png>)
+
+# Live Preview of Project [Here](https://beamish-meringue-cb7834.netlify.app/)
 
 # Features:
 
