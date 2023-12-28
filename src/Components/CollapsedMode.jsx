@@ -13,7 +13,7 @@ function CollapsedMode(props) {
     >
       <p className="title-collapsed">{title}</p>
       <i
-        className={`fa-regular fa-eye`}
+        className={`fa-regular ${isNotVisible ? "fa-eye-slash" : "fa-eye"} eye`}
         onClick={(e) => {
           e.stopPropagation();
           hideForm(e);
