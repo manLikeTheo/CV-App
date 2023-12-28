@@ -7,7 +7,7 @@ const DATA = {
     telephone: "234-801-001-6711",
     address: "Lagos, Nigeria",
     description:
-      "Aerospace by Education, Web Dev by Passion | Coding My Path Forward",
+      "Aviation by Education, Programming by Passion | Coding My Path Forward",
   },
 
   subSections: {
